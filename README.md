@@ -1,1 +1,7 @@
-Our project implemenents Canny Edge Detection , which is used to find edges in images. The program takes an image, converts it to grayscale, calculates gradients to find where the edges are, thins them out to make them cleaner, and then filters out weak edges. In the end, it spits out a new image that highlights just the edges. It's a cool way to learn how image processing works with Rust!
+- Group members: Yotam Dubiner (dubiner2), Brian Wang (brianyw2)
+- Project introduction: Our project is a Canny Edge Detection algorithm implementation in Rust. Our goal is to take an image as an input and then create a list of edges, then display the edges in a black and white image.
+- Technical overview: Convert the image to grayscale.
+Use the Sobel operator to calculate gradients.
+Compute gradient magnitude and direction.
+Thin the edges using non-maximum suppression.
+Use hysteresis thresholding to finalize the edges."
