@@ -140,7 +140,7 @@ fn hysteresis_thresholding(image: &Vec<Vec<u8>>, low_threshold: u8, high_thresho
 }
 
 fn main() {
-    let img_path = "/home/spacecat/Downloads/shrek.png";
+    let img_path = "media/shrek.jpg";
     let img = open(img_path).expect("bruh");
     
     let rgba_image = img.to_rgba8();
